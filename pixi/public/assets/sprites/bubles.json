@@ -1,0 +1,134 @@
+{
+    "frames": {
+        "bubble-00": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 202,
+                "h": 203
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 202,
+                "h": 203
+            },
+            "sourceSize": {
+                "w": 202,
+                "h": 203
+            }
+        },
+        "buble-01": {
+            "frame": {
+                "x": 202,
+                "y": 0,
+                "w": 202,
+                "h": 203
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 202,
+                "h": 203
+            },
+            "sourceSize": {
+                "w": 202,
+                "h": 203
+            }
+        },
+        "buble-02": {
+            "frame": {
+                "x": 404,
+                "y": 0,
+                "w": 202,
+                "h": 203
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 202,
+                "h": 203
+            },
+            "sourceSize": {
+                "w": 202,
+                "h": 203
+            }
+        },
+        "buble-03": {
+            "frame": {
+                "x": 0,
+                "y": 203,
+                "w": 202,
+                "h": 203
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 202,
+                "h": 203
+            },
+            "sourceSize": {
+                "w": 202,
+                "h": 203
+            }
+        },
+        "buble-04": {
+            "frame": {
+                "x": 202,
+                "y": 203,
+                "w": 202,
+                "h": 203
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 202,
+                "h": 203
+            },
+            "sourceSize": {
+                "w": 202,
+                "h": 203
+            }
+        },
+        "buble-05": {
+            "frame": {
+                "x": 404,
+                "y": 203,
+                "w": 202,
+                "h": 203
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 202,
+                "h": 203
+            },
+            "sourceSize": {
+                "w": 202,
+                "h": 203
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "bubles.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 606,
+            "h": 406
+        },
+        "scale": 1
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "bubble",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server",
+    "build": "Webpack"
+  },
+  "author": "",
+  "dependencies": {
+    "browser-sync": "^2.23.5",
+    "gsap": "^1.20.3",
+    "gulp": "^3.9.1",
+    "gulp.spritesmith": "^6.9.0",
+    "node-sass": "^4.7.2",
+    "pixi-sound": "^2.0.1",
+    "pixi.js": "^4.6.2",
+    "sass-loader": "^6.0.6",
+    "spritesmith-texturepacker": "^1.0.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  }
+}
