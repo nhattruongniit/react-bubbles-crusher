@@ -1,24 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useRef, useEffect } from 'react';
+import * as PIXI from 'pixi.js';
+
+import { Welcome } from './components/welcomebg'
 
 function App() {
+  const refWelcome = useRef(null);
+
+  useEffect(() => {
+    if(refWelcome) {
+      const app = window.game = new PIXI.Application({
+        width: 513,
+        height: 936,
+        antialias: true,
+        transparent: true,
+        resolution: 1
+      })
+     
+      refWelcome.current.appendChild(app.view);
+
+      var welcome = new Welcome({
+        images: './sprites/backgrounds.json',
+        width: 513,
+        height: 936
+      });
+
+      // PIXI.loader.add('welcome', './sprites/backgrounds.json').load(() => {
+      //   console.log('welcome')
+      // })
+
+      // let welcome = new PIXI.Sprite.from('./images/backgrounds/background.png');
+      // welcome.width = 513;
+      // welcome.height = 936;
+      app.stage.addChild(welcome)
+    }
+  })
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div ref={refWelcome} />
     </div>
   );
 }

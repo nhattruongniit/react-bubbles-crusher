@@ -1,0 +1,194 @@
+{
+    "frames": {
+        "card-0": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 148,
+                "h": 214
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 148,
+                "h": 214
+            },
+            "sourceSize": {
+                "w": 148,
+                "h": 214
+            }
+        },
+        "card-1": {
+            "frame": {
+                "x": 148,
+                "y": 0,
+                "w": 148,
+                "h": 214
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 148,
+                "h": 214
+            },
+            "sourceSize": {
+                "w": 148,
+                "h": 214
+            }
+        },
+        "card-2": {
+            "frame": {
+                "x": 296,
+                "y": 0,
+                "w": 148,
+                "h": 214
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 148,
+                "h": 214
+            },
+            "sourceSize": {
+                "w": 148,
+                "h": 214
+            }
+        },
+        "card-3": {
+            "frame": {
+                "x": 0,
+                "y": 214,
+                "w": 148,
+                "h": 214
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 148,
+                "h": 214
+            },
+            "sourceSize": {
+                "w": 148,
+                "h": 214
+            }
+        },
+        "card-4": {
+            "frame": {
+                "x": 148,
+                "y": 214,
+                "w": 148,
+                "h": 214
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 148,
+                "h": 214
+            },
+            "sourceSize": {
+                "w": 148,
+                "h": 214
+            }
+        },
+        "card-5": {
+            "frame": {
+                "x": 296,
+                "y": 214,
+                "w": 148,
+                "h": 214
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 148,
+                "h": 214
+            },
+            "sourceSize": {
+                "w": 148,
+                "h": 214
+            }
+        },
+        "card-6": {
+            "frame": {
+                "x": 444,
+                "y": 0,
+                "w": 148,
+                "h": 214
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 148,
+                "h": 214
+            },
+            "sourceSize": {
+                "w": 148,
+                "h": 214
+            }
+        },
+        "card-7": {
+            "frame": {
+                "x": 444,
+                "y": 214,
+                "w": 148,
+                "h": 214
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 148,
+                "h": 214
+            },
+            "sourceSize": {
+                "w": 148,
+                "h": 214
+            }
+        },
+        "card-8": {
+            "frame": {
+                "x": 592,
+                "y": 0,
+                "w": 148,
+                "h": 214
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 148,
+                "h": 214
+            },
+            "sourceSize": {
+                "w": 148,
+                "h": 214
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "cards.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 740,
+            "h": 428
+        },
+        "scale": 1
+    }
+}
