@@ -12,8 +12,7 @@ function App() {
         width: 513,
         height: 936,
         antialias: true,
-        transparent: true,
-        resolution: 1
+        resolution: 1,
       })
      
       refWelcome.current.appendChild(app.view);
